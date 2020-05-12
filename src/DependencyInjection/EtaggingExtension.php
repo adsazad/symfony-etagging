@@ -9,8 +9,8 @@
 namespace Adsazad\EtaggingBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Config\FileLocator;
-use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\Routing\Loader\YamlFileLoader;
 
 /**
@@ -18,7 +18,7 @@ use Symfony\Component\Routing\Loader\YamlFileLoader;
  *
  * @author arashdeep
  */
-class EtaggingExtension extends Extension {
+class EtaggingExtension extends ExtensionInterface {
 
     /**
      * {@inheritdoc}
