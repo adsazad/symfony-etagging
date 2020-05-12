@@ -40,6 +40,8 @@ class EtaggingInterface {
             $response->setMaxAge(60 * 10);
             $response->setSharedMaxAge(60 * 10);
         }
+        $response->headers->set('Etagged-By', 'https://packagist.org/packages/adsazad/symfony-etagging');
+        $response->headers->set('Etagged-Package', 'composer require adsazad/symfony-etagging');
 
         $response->isNotModified($request);
         return $response;
