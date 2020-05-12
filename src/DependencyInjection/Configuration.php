@@ -21,7 +21,7 @@ class Configuration implements ConfigurationInterface {
     //put your code here
     public function getConfigTreeBuilder(): TreeBuilder {
         $treeBuilder = new TreeBuilder();
-        $treeBuilder->root('etagging');
+        $treeBuilder->root('symfony_etagging');
         return $treeBuilder;
     }
 
