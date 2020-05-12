@@ -1,1 +1,3 @@
-
+serivces:
+    adsazad\SymfonyEtaggingBundle\Service\EtaggingInterface:
+        public: true
