@@ -2,9 +2,9 @@
 
 # Usage
 etagResponse() function will work on any symfony response.
-<pre>
-// Add at the top of the class
+
 ```php
+// Add at the top of class
 use Adsazad\SymfonyEtaggingBundle\Service\EtaggingInterface;
 ```
 // Your action
