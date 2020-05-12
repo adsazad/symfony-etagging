@@ -1,6 +1,6 @@
 <?php
 
-namespace adsazad\SymfonyEtaggingBundle\Services;
+namespace adsazad\SymfonyEtaggingBundle\Service;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
