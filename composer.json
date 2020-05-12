@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Adsazad\\EtaggingBundle\\": "src/"
+            "adsazad\\SymfonyEtaggingBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Adsazad\\EtaggingBundle\\Tests\\": "tests/"
+            "adsazad\\SymfonyEtaggingBundle\\Tests\\": "tests/"
         }
     },
     "conflict": {

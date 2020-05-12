@@ -1,6 +1,6 @@
 <?php
 
-namespace Adsazad\EtaggingBundle;
+namespace adsazad\SymfonyEtaggingBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
@@ -15,6 +15,6 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  *
  * @author arashdeep
  */
-class EtaggingBundle extends Bundle {
+class SymfonyEtaggingBundle extends Bundle {
     //put your code here
 }

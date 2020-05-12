@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace Adsazad\EtaggingBundle\DependencyInjection;
+namespace adsazad\SymfonyEtaggingBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
