@@ -19,10 +19,6 @@ use Symfony\Component\HttpFoundation\Response;
 class EtaggingInterface {
 
     public function etagResponse(Response $response, Request $request, $catch = false) {
-
-
-        //return $response;
-
         $encodings = $request->getEncodings();
         if (in_array('gzip', $encodings) && function_exists('gzencode')) {
             $content = gzencode($response->getContent());

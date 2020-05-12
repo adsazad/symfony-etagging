@@ -16,10 +16,5 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  * @author arashdeep
  */
 class SymfonyEtaggingBundle extends Bundle {
-
-    public function build(\Symfony\Component\DependencyInjection\ContainerBuilder $container) {
-        parent::build($container);
-        $container->registerForAutoconfiguration(Service\EtaggingInterface::class)->addTag('symfony.etagging');
-    }
-
+    //put your code here
 }
