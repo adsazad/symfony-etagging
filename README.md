@@ -7,6 +7,8 @@ etagResponse() function will work on any symfony response.
 // Add at the top of class
 use Adsazad\SymfonyEtaggingBundle\Service\EtaggingInterface;
 ```
+```php
+
 // Your action
 public function myaction(Request $request, EtaggingInterface $etag){
   $response = $this->render('mypage.twig',['parameters'=>'p1']);
@@ -15,4 +17,6 @@ public function myaction(Request $request, EtaggingInterface $etag){
   // For long term
   return $etag->etagResponse($response, $request, true);
 }
-</pre>
+```
+
+
