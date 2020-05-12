@@ -8,10 +8,10 @@
 
 namespace Adsazad\EtaggingBundle\DependencyInjection;
 
-use Symfony\Component\Config\FileLocatorInterface;
+use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
-use Symfony\Component\Routing\Loader\YamlFileLoader;
+use Symfony\Component\DependencyInjection\Loader;
 
 /**
  * Description of EtaggingExtension
