@@ -8,7 +8,6 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "symfony/flex": "^1.0",
-        "symfony/dependency-injection": "4.4.*",
         "symfony/framework-bundle": "~4.4|5.0.*",
         "sensio/framework-extra-bundle": "^5.2",
         "symfony/yaml": "~4.4|5.0.*"
