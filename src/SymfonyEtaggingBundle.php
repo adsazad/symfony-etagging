@@ -16,5 +16,9 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  * @author arashdeep
  */
 class SymfonyEtaggingBundle extends Bundle {
-    //put your code here
+
+    public function getContainerExtension() {
+        return new DependencyInjection\AdsazadSymfonyEtaggingExtension();
+    }
+
 }
