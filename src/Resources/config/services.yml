@@ -1,3 +1,4 @@
 serivces:
     adsazad\SymfonyEtaggingBundle\Service\EtaggingInterface:
         public: true
+        autowire: true
