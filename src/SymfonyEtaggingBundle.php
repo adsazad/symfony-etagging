@@ -1,6 +1,6 @@
 <?php
 
-namespace adsazad\SymfonyEtaggingBundle;
+namespace Adsazad\SymfonyEtaggingBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

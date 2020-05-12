@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace adsazad\SymfonyEtaggingBundle\DependencyInjection;
+namespace Adsazad\SymfonyEtaggingBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -16,7 +16,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @author arashdeep
  */
-class EtaggingExtension extends \Symfony\Component\HttpKernel\DependencyInjection\Extension {
+class AdsazadSymfonyEtaggingExtension extends \Symfony\Component\HttpKernel\DependencyInjection\Extension {
 
     /**
      * {@inheritdoc}

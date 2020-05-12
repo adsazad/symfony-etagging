@@ -1,6 +1,6 @@
 <?php
 
-namespace adsazad\SymfonyEtaggingBundle\DependencyInjection;
+namespace Adsazad\SymfonyEtaggingBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
