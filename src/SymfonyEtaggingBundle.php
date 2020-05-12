@@ -19,7 +19,7 @@ class SymfonyEtaggingBundle extends Bundle {
 
     public function build(\Symfony\Component\DependencyInjection\ContainerBuilder $container) {
         parent::build($container);
-        $container->registerForAutoconfiguration(Service\EtaggingInterface::class)->addTag(Service\EtaggingInterface::TAG);
+        $container->registerForAutoconfiguration(Service\EtaggingInterface::class)->addTag('symfony.etagging');
     }
 
 }
