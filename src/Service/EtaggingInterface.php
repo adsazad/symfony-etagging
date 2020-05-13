@@ -30,11 +30,11 @@ class EtaggingInterface {
     }
 
     public function setMaxAge($timeInSeconds) {
-        $this->$maxAge = $timeInSeconds;
+        $this->maxAge = $timeInSeconds;
     }
 
     public function setSharedMax($timeInSeconds) {
-        $this->$shairedMaxAge = $timeInSeconds;
+        $this->shairedMaxAge = $timeInSeconds;
     }
 
     public function addCustom($key, $value) {
