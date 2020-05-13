@@ -1,5 +1,10 @@
 # Etagging Bundle For Symfony
 
+### Installation
+```
+composer require adsazad/symfony-etagging
+```
+
 # Usage
 etagResponse() function will work on any symfony response.
 
