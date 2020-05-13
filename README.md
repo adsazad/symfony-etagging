@@ -35,6 +35,6 @@ Add This before Etag Response
   $ets->setMaxAge(60*60*24); // 1 Day
     
 // Set Max Age In Seconds (Default 1 Day)
-  $ets->setSharedMax(60*60*24); // 10 Hours
+  $ets->setSharedMax(60*60*10); // 10 Hours
 ```
 
