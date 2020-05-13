@@ -4,6 +4,7 @@ namespace Adsazad\SymfonyEtaggingBundle\Service;
 
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\HttpFoundation\Response;
+use Adsazad\SymfonyEtaggingBundle\Util\EtaggingInterface;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -16,7 +17,7 @@ use Symfony\Component\HttpFoundation\Response;
  *
  * @author arashdeep
  */
-class EtaggingInterface {
+class Etagging implements EtaggingInterface {
 
     private $request;
     private $requestStack;

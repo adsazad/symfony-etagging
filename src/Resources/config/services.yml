@@ -1,5 +1,6 @@
 services:
-    Adsazad\SymfonyEtaggingBundle\Service\EtaggingInterface:
+    Adsazad\SymfonyEtaggingBundle\Service\Etagging:
         autoconfigure: true
         autowire: true
+    Adsazad\SymfonyEtaggingBundle\Util\EtaggingInterface: '@Adsazad\SymfonyEtaggingBundle\Service\Etagging'
 
