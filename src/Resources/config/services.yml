@@ -1,3 +1,5 @@
 services:
     Adsazad\SymfonyEtaggingBundle\Service\EtaggingInterface:
         autoconfigure: true
+        autowire: true
+
